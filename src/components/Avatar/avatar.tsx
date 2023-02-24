@@ -6,7 +6,7 @@ type Props = {
   name: string
 }
 
-export default function Avatar({ name, color, size }: Props) {
+export const Avatar = ({ name, color, size }: Props) => {
   let newName
   if (name) {
     newName = name.substring(0, 1)

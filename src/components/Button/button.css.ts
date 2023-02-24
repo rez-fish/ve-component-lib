@@ -1,5 +1,6 @@
 import { recipe, RecipeVariants } from '@vanilla-extract/recipes'
-import { vars } from './themes.css'
+import { style } from '@vanilla-extract/css'
+import { vars } from '../themes.css'
 
 export const button = recipe({
   base: {
@@ -29,7 +30,7 @@ export const button = recipe({
     size: {
       small: { padding: 12 },
       medium: { padding: 16 },
-      large: { padding: 24 },
+      large: { padding: '24px' },
     },
     rounded: {
       true: { borderRadius: 999 },

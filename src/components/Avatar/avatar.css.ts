@@ -1,5 +1,5 @@
 import { recipe, RecipeVariants } from '@vanilla-extract/recipes'
-import { vars } from './themes.css'
+import { vars } from '../themes.css'
 
 export const avatar = recipe({
   base: {

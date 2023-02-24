@@ -9,14 +9,14 @@ type Props = {
   disabled?: boolean
 }
 
-export default function Button({
+export const Button = ({
   children,
   color,
   size,
   rounded,
   outlined,
   disabled,
-}: Props) {
+}: Props) => {
   return (
     <button
       className={button({ color, size, rounded, outlined })}
